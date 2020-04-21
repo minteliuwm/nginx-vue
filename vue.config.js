@@ -4,7 +4,7 @@ const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  publicPath: isProduction ? '/public/' : '/',
+  publicPath: './',
   productionSourceMap: false,
   configureWebpack: () => {
     const myConfig = {

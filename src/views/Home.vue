@@ -1,17 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>{{desc}}</div>
   </div>
 </template>
 
-<script>
-import HelloWorld from '@/components/HelloWorld.vue';
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
 
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
+@Component
+export default class MHome extends Vue {
+  private desc: string = '';
+
+  private async mounted() {
+    this.desc = await this.$request('getAppDesc');
   }
-};
+}
 </script>
