@@ -23,18 +23,14 @@
     "vuex": "^3.1.2"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.19",
     "@types/lodash": "^4.14.149",
     "@types/qs": "^6.9.0",
     "@vue/cli-plugin-babel": "^4.1.0",
-    "@vue/cli-plugin-e2e-cypress": "^4.1.0",
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-plugin-typescript": "^4.1.0",
-    "@vue/cli-plugin-unit-jest": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "@vue/eslint-config-typescript": "^4.0.0",
-    "@vue/test-utils": "1.0.0-beta.29",
     "axios": "^0.19.1",
     "babel-plugin-component": "^1.1.1",
     "commitizen": "^4.0.3",

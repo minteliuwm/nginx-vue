@@ -1,5 +1,5 @@
 #指定 node 镜像对项目进行依赖安装和打包
-FROM node:8.11.3-alpine AS builder
+FROM node:12.16.1-alpine AS builder
 
 # 将容器的工作目录设置为 /app (当前目录，如果 /app 不存在，WORKDIR 会创建 /app 文件夹)
 WORKDIR /app
