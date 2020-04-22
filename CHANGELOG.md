@@ -1,3 +1,7 @@
+## [1.0.2](https://github.com/minteliuwm/nginx-vue/compare/v1.0.1...v1.0.2) (2020-04-22)
+
+
+
 ## [1.0.1](https://github.com/minteliuwm/nginx-vue/compare/4991a30a5486af2449d4938784a036aab0d841b9...v1.0.1) (2020-04-22)
 
 
