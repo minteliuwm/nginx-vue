@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/minteliuwm/nginx-vue/compare/v1.0.2...v1.0.3) (2020-04-23)
+
+
+### Bug Fixes
+
+* 修复nginx无法代理问题 ([3a01ca7](https://github.com/minteliuwm/nginx-vue/commit/3a01ca73c275adcb24fa29330b68651c107fc231))
+
+
+
 ## [1.0.2](https://github.com/minteliuwm/nginx-vue/compare/v1.0.1...v1.0.2) (2020-04-22)
 
 
